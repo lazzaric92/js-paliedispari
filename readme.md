@@ -5,8 +5,8 @@ Creare una funzione per capire se la parola inserita è palindroma
 Chiedo all'utente di inserire una parola e la salvo in una costante ('userWord')
 
 Richiamo la funzione 'isPalindrome' con argomento 'userWord'
-    - se la funzione ritorna true, allora 'userWord' è palindromo
-    - altrimenti 'userWord' non è palindromo
+    - se la funzione ritorna true, allora 'userWord' è palindroma
+    - altrimenti 'userWord' non è palindroma
 
 Creo funzione 'isPalindrome' con parametro 'string'
     scrivo un ciclo for con indice che va da 0 a string.length - 1 con il quale
