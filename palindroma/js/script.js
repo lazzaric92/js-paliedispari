@@ -1,3 +1,13 @@
+const userWord = prompt('Type a word');
+isPalindrome(userWord);
+
+if (isPalindrome(userWord) === true){
+    console.log(`${userWord} è palindroma`);
+} else {
+    console.log(`${userWord} non è palindroma`);
+}
+
+
 //  --> funzione per verificare se una parola è palindroma
 function isPalindrome(string){
     let result;
