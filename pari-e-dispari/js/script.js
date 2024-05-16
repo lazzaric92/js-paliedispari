@@ -9,6 +9,20 @@ while (userNumber < 1 || userNumber > 5 || Number.isNaN(userNumber)){
     userNumber = Number.parseInt(prompt('Type a number from 1 to 5'), 10);
 }
 
+sum = userNumber + computerNumber;
+isEven(sum);
+if (isEven(sum) === true){
+    wordIs = 'even';
+} else {
+    wordIs = 'odd';
+}
+
+// controllo se 'userGuess' coincide con 'wordIs'
+if (userGuess === wordIs){
+    console.log('You won!')
+} else {
+    console.log('Computer won \:\(')
+}
 
 // --> funzione per generare un numero randomico compreso tra min e max inclusi
 function getRandomNumber(min, max){
